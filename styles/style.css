@@ -1,16 +1,18 @@
-html, body {
+html,
+body {
     margin: 0;
     width: 100%;
     height: 100%;
 
     font-family: 'Open Sans';
-    
+
     color: #606060;
 
     background: #1D1E22;
 }
 
-h1, h2 {
+h1,
+h2 {
     margin: 0;
 }
 
@@ -31,7 +33,8 @@ a:hover {
     padding: 0px;
 
     width: 100%;
-    height: 100%;
+
+    align-self: stretch;
 }
 
 .page-content {
@@ -51,7 +54,7 @@ a:hover {
     flex-grow: 0;
 }
 
-.page-content > header {
+.page-content>header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,21 +66,21 @@ a:hover {
     flex-grow: 0;
 }
 
-.page-content > header h1 {
+.page-content>header h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
 }
 
-.page-content > header h2 {
+.page-content>header h2 {
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;
 }
 
-.page-content > header nav {
+.page-content>header nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -93,13 +96,14 @@ main {
     flex-direction: row;
     justify-content: center;
     gap: 40px;
-    
+
     flex: none;
     align-self: stretch;
     flex-grow: 0;
 }
 
-main .left, main .right {
+main .left,
+main .right {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +123,7 @@ main section {
     align-self: stretch;
 }
 
-main section > h1 {
+main section>h1 {
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
@@ -214,12 +218,12 @@ main section .grouped-content ul {
     list-style: square;
 
     margin: 0;
-    
+
     flex-grow: 0;
     align-self: stretch;
 }
 
-main section .grouped-content ul > li {
+main section .grouped-content ul>li {
     padding: 3px 0;
 
     font-size: 14px;
@@ -237,14 +241,14 @@ main section .split {
     align-self: stretch;
 }
 
-main section .split > div {
+main section .split>div {
     flex: 50%;
 }
 
-main section .split > div:first-child {
+main section .split>div:first-child {
     font-weight: 700;
 }
 
-main section .split > div:last-child {
+main section .split>div:last-child {
     text-align: right;
 }
