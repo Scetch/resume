@@ -33,8 +33,6 @@ a:hover {
     padding: 0px;
 
     width: 100%;
-
-    align-self: stretch;
 }
 
 .page-content {
@@ -42,7 +40,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     padding: 50px 100px;
-    gap: 30px;
+    gap: 20px;
 
     max-width: 8.5in;
     min-width: 8.5in;
@@ -206,7 +204,7 @@ main section .grouped-content .info-right {
 main section .grouped-content .extra {
     font-style: italic;
 
-    font-size: 14px;
+    font-size: 12px;
     line-height: 19px;
 
     flex-grow: 0;
@@ -251,4 +249,5 @@ main section .split>div:first-child {
 
 main section .split>div:last-child {
     text-align: right;
+    font-size: 12px;
 }
