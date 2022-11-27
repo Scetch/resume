@@ -1,6 +1,7 @@
 # Resume
 
-https://scet.ch/Resume.pdf
+Live: https://scet.ch/resume/
+PDF: https://scet.ch/Resume.pdf
 
 My very simple stylish resume template. :) 
 
