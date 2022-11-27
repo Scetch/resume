@@ -43,7 +43,6 @@ a:hover {
 
     background: #FFF;
 
-    flex: none;
     align-self: stretch;
     flex-grow: 0;
 }
@@ -248,7 +247,7 @@ main section .split>div:last-child {
     font-size: 12px;
 }
 
-@media screen and (width < 8.5in) {
+@media screen and (max-width: 8.5in) {
     .page-content {
         width: 100%;
         min-width: 100%;
@@ -292,3 +291,9 @@ main section .split>div:last-child {
         padding: 0 50px;
     }
 } 
+
+@media print {
+    .page-content {
+        flex: none;
+    }
+}
