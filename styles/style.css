@@ -8,7 +8,7 @@ body {
 
     color: #606060;
 
-    background: #1D1E22;
+    background: #FFFFFF;
 }
 
 h1,
@@ -251,3 +251,19 @@ main section .split>div:last-child {
     text-align: right;
     font-size: 12px;
 }
+
+@media screen and (width < 8.5in) {
+    .page-content {
+        max-width: 100%;
+        min-width: 580px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main .left,
+    main .right {
+        padding: 0 50px;
+    }
+} 
