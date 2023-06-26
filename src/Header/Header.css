@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+header h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+header .icon {
+  margin-right: 5px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+
+  margin-top: 20px;
+}

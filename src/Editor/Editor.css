@@ -1,0 +1,79 @@
+.editor-container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-height: 260px;
+}
+
+.editor-dialog {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.editor-view {
+  tab-size: 4ch;
+  max-width: 800px;
+  overflow: auto;
+  border-radius: 8px;
+  background: #f8f9fa;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.editor-bar {
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-bottom: 0;
+
+  padding: 6px;
+  background: #f8f9fa;
+
+  z-index: 69;
+
+  border-radius: 10px 10px 0 0;
+
+  margin-bottom: -1px;
+}
+.editor-bar button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #606060;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 6px;
+
+  width: 100%;
+
+  background: none;
+
+  cursor: pointer;
+}
+
+.editor-bar button:hover {
+  background: #eee7e7;
+}
+
+.editor {
+  font-size: 12px;
+  font-variant-ligatures: common-ligatures;
+}
+
+.editor textarea {
+  outline: 0;
+}
+
+@media print {
+  .editor-container {
+    display: none !important;
+  }
+}

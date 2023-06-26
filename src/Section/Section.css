@@ -1,0 +1,93 @@
+section .grouped-content header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 10px;
+
+  align-self: stretch;
+}
+
+section .grouped-content h1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+section .grouped-content h2 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+section .grouped-content .info-left,
+section .grouped-content .info-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+section .grouped-content .info-left {
+  align-items: flex-start;
+}
+
+section .grouped-content .info-right {
+  align-items: flex-end;
+  text-align: right;
+}
+
+section .grouped-content .extra {
+  font-style: italic;
+
+  font-size: 12px;
+  line-height: 19px;
+
+  flex-grow: 0;
+}
+
+section .grouped-content ul {
+  padding-left: 25px;
+
+  list-style: square;
+
+  margin: 0;
+
+  flex-grow: 0;
+  align-self: stretch;
+}
+
+section .grouped-content ul > li {
+  padding: 3px 0;
+
+  font-size: 14px;
+  line-height: 19px;
+}
+
+section .split {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  align-self: stretch;
+}
+
+section .split > div {
+  flex: 50%;
+}
+
+section .split > div:first-child {
+  font-weight: 700;
+}
+
+section .split > div:last-child {
+  text-align: right;
+  font-size: 12px;
+}

@@ -1,0 +1,132 @@
+{
+  "header": {
+    "name": "Brandon Lucier",
+    "subtitle": "Senior Software Developer",
+    "nav": [
+      {
+        "label": "me@scet.ch",
+        "icon": "envelope",
+        "href": "mailto:me@scet.ch"
+      },
+      {
+        "label": "Scetch",
+        "icon": "github",
+        "href": "https://github.com/Scetch"
+      },
+      {
+        "label": "blucier",
+        "icon": "linkedin",
+        "href": "https://linkedin.com/blucier"
+      },
+      { "label": "Ontario, Canada", "icon": "pin" }
+    ]
+  },
+  "left": [
+    {
+      "name": "Experience",
+      "items": [
+        {
+          "title": "1Password",
+          "subtitle": "Senior Software Developer | Tech Lead",
+          "upper": "Remote",
+          "lower": "Sept 2019 - Present",
+          "bullets": [
+            "*Tech Lead* of Filling & Saving; a collection of cross-platform *Rust* crates that handle autofill, save, and field analysis across 1Password products.",
+            "*Collaborated across teams* to add autofill support through use of the brain to Android and macOS apps.",
+            "*Extended the capabilities* of the brain with features such as credit card saving, SSH key autofill and smart password generation.",
+            "Built up *thousands of automated tests* across all aspects of the brain to *prevent regressions* and ensure autofill is as stable as possible.",
+            "Created *documentation* and *fireside chats* for use in onboarding and mentoring new developers."
+          ]
+        },
+        {
+          "title": "Bell Canada",
+          "subtitle": "Student, Engineering | Developer",
+          "upper": "London, ON",
+          "lower": "June 2019 - Sept 2019",
+          "bullets": [
+            "Developed *bash* and *python* scripts to automate long running server tasks *freeing up hours* of weekly developer time.",
+            "Explored and compared the monitoring tools *Spunk* and *ELK (Elasticsearch, Logstash, Kibana)* for the team."
+          ]
+        },
+        {
+          "title": "Centre for Smart Community Innovation",
+          "subtitle": "Research Assistant | Software Developer",
+          "upper": "Windsor, ON",
+          "lower": "2012 - 2014",
+          "bullets": [
+            "*Designed and implemented front-end* web templates for IBM WebSphere Portal, Joomla and Drupal using *HTML*, *CSS*, and *JavaScript.*",
+            "Managed content across various CMS and database systems for both internal and external clients."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skills",
+      "items": [
+        {
+          "title": "Programming",
+          "upper": "Rust, Python, C, C++, Java, HTML, CSS, TypeScript, JavaScript, Bash, SQL"
+        },
+        { "title": "Tools / Frameworks", "upper": "React, Svelte" },
+        { "title": "Operating Systems", "upper": "macOS, Linux, Windows" }
+      ]
+    }
+  ],
+  "right": [
+    {
+      "name": "Education",
+      "items": [
+        {
+          "title": "University of Windsor",
+          "subtitle": "B.S Computer Science Software Engineering Specialization",
+          "upper": "Windsor, ON",
+          "lower": "June 2016 - May 2020"
+        }
+      ]
+    },
+    {
+      "name": "Extracurricular",
+      "items": [
+        {
+          "title": "Computer Science Society",
+          "subtitle": "Vice President",
+          "upper": "Windsor, ON",
+          "lower": "May 2019 - May 2020",
+          "bullets": [
+            "*Elected* representative of over *600 undergraduate* students acting as a liaison between students and the department of Computer Science regarding academic issues, policies, and events.",
+            "*Developed several tools* used by computer science students for course information and events."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "items": [
+        {
+          "title": "mcping",
+          "href": "https://github.com/Scetch/mcping",
+          "bullets": [
+            "An *open source Rust* crate that implements multiple versions of the Minecraft status protocol.",
+            "Created a Discord bot using mcping providing *hundreds of students* commands to obtain the status of Minecraft servers used for events."
+          ]
+        },
+        {
+          "title": "uWindsorCourseSearchBot",
+          "href": "https://github.com/Scetch/uWindsorCourseSearchBot",
+          "bullets": [
+            "An *open source* Discord bot written in Rust that provides *hundreds of students* commands to search and display course information in chat.",
+            "Scrapes course information from university systems to *build a search index* based on course codes, titles, and descriptions."
+          ]
+        },
+        {
+          "title": "Nodus",
+          "bullets": [
+            "A utility Minecraft mod written in *Java* with *millions of downloads.*",
+            "Provided multiplayer game customization using custom graphical overlays, commands, and key bindings.",
+            "Used *OpenGL* to render graphical overlays and custom elements in-game."
+          ]
+        }
+      ]
+    }
+  ]
+}
